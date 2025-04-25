@@ -1,0 +1,116 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  
+  .header {
+    background: linear-gradient(135deg, #3d1e04, #5a2201);
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: white;
+    padding: 5px;
+    margin-right: 15px;
+  }
+  
+  .user-info h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .user-info p {
+    margin: 4px 0;
+    font-size: 14px;
+  }
+  
+  .rating {
+    font-size: 14px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: white;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #999;
+    font-weight: 600;
+  }
+  
+  .navbar a.active {
+    color: #fca311;
+    border-bottom: 2px solid #fca311;
+    padding-bottom: 5px;
+  }
+  
+  .products {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .product-card {
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .product-card img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .product-info h2 {
+    margin: 0;
+    font-size: 16px;
+    color: #000000;
+  }
+  
+  .product-info p {
+    margin: 2px 0;
+    font-size: 14px;
+  }
+  
+  .product-info h3 {
+    margin: 5px 0;
+    color: #000000;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .mic-button {
+    background-color: #fca311;
+    border: none;
+    color: white;
+    font-size: 24px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
+  
